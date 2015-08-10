@@ -22,3 +22,14 @@ puts(9.0 / 2.0)
 puts(11 / 4)
 #Remainder of dividing 11 by 4 shown here
 puts(11 % 4)
+
+#To print a sentence thrice;
+
+#First declare it
+cool_things = "Cars, games and chocolate"
+
+#Then print it
+puts(cool_things);
+puts(cool_things);
+puts(cool_things);
+
