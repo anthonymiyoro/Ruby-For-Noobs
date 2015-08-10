@@ -33,3 +33,22 @@ puts(cool_things);
 puts(cool_things);
 puts(cool_things);
 
+#We can reasign them also!
+
+#First declare it
+cool_things = "Maths and Swahili"
+
+#Then print it
+puts(cool_things);
+puts(cool_things);
+puts(cool_things);
+
+cool_things = "Peanuts and Ferraris"
+
+#Then print it
+puts(cool_things);
+puts(cool_things);
+puts(cool_things);
+
+
+
