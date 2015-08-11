@@ -8,6 +8,9 @@ puts("Hello " + name + "!")
 
 #Not to worry though! 
 #If we replace the gets method with gets.chomp we are able to strip of the character at the end.
-puts("Type in your name!")
+puts("Type your name again please!")
 name = gets.chomp
 puts("Hello " + name + "!")
+
+
+# When calling a method, the formula object.method is always used
