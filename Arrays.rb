@@ -13,3 +13,10 @@ puts(cool_things[2]);
 
 
 #Rather than repeating methods we can use the array's length method
+
+#below prints the length of the array
+puts(cool_things.length)
+
+#we can then print out each of the items in the array
+index = 0
+while index < cool_things.length
