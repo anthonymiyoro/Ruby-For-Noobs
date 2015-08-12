@@ -19,4 +19,10 @@ puts(cool_things.length)
 
 #we can then print out each of the items in the array
 index = 0
+
 while index < cool_things.length
+  puts(cool_things[index])
+  index = index + 1
+end
+
+puts("Cool things loop completed!")
