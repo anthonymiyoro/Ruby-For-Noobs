@@ -2,7 +2,19 @@
 
 class Dog
   def talk
-    puts "Woof!!"
+    puts "Woof! My name is " + @name
+  end
+  
+  def initialize(aName)
+    @name = aName 
+  end
+end
+
+
+#The < sign makes GermanShepherd a subclass of Dog
+class GermanShepherd < Dog
+  def howl
+    puts "wooooooooooo!"
   end
 end
 
@@ -15,3 +27,5 @@ yourdog = Dog.new
 
 mydog.talk
 yourdog.talk
+
+#The german shepherd class can then be initialized
